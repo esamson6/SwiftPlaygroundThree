@@ -38,4 +38,55 @@ print("I like to eat, \(fruitNames)")
 //fruitNames = ["Kiwi", "Apples", "Watermelon"]
 print(fruitNames[1])
 
+//Part 9 Problem Set
+//Problem Set #1
+
+var expensiveSuvNames = [String]()
+
+expensiveSuvNames = ["Rolls Royce","Bently Bentayga","Land Rover","Lamborghini Urus","Maserati Levante", "Porsche Cayenne","Mercedes AMG","Mercedes G wagon"]
+
+print(expensiveSuvNames)
+
+//"A very expensive Suv is the Rolls Royce"
+//"A very expensive Suv is the Bently Bentayga"
+//"A very expensive Suv is the Land Rover"
+//"A very expensive Suv is the Lamborghini Urus"
+//"A very expensive Suv is the Maserati Levante"
+//"A very expensive Suv is the Porsche Cayenne"
+//"A very expensive Suv is the Mercedes AMG"
+//"A very expensive Suv is the Mercedes G wagon"
+
+//Try this
+
+print("A very expensive Suv is the,\(expensiveSuvNames)")
+
+//For-in syntax
+
+//"A very expensive Suv is the Rolls Royce"
+//"A very expensive Suv is the Bently Bentayga"
+//"A very expensive Suv is the Land Rover"
+//"A very expensive Suv is the Lamborghini Urus"
+//"A very expensive Suv is the Maserati Levante"
+//"A very expensive Suv is the Porsche Cayenne"
+//"A very expensive Suv is the Mercedes AMG"
+//"A very expensive Suv is the Mercedes G wagon"
+
+for name in expensiveSuvNames{
+    
+    //code block for the for-in loop
+    print("A very expensive Suv is the " + name)
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
