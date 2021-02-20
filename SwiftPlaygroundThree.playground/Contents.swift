@@ -74,7 +74,7 @@ print("A very expensive Suv is the,\(expensiveSuvNames)")
 for name in expensiveSuvNames{
     
     //code block for the for-in loop
-    print("A very expensive Suv is the " + name)
+    print("A very expensive Suv is the" + name)
     
 }
 
